@@ -33,7 +33,7 @@ class SnapStoreProxyCharm(CharmBase):
 
     def _on_install(self, _):
         check_output(["snap", "install", "snap-store-proxy"])
-        check_output(["apt", "install", "postgresql-client-10"])
+        check_output(["apt", "install", "-y", "postgresql-client-10"])
 
     def _on_update_status(self, _):
         if not self._stored.db_connected:

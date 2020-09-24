@@ -1,0 +1,4 @@
+.jujuignore
+.vscode/
+build/
+snap-store-proxy.charm

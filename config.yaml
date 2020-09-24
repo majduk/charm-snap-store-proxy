@@ -1,0 +1,10 @@
+# Copyright 2020 Ubuntu
+# See LICENSE file for licensing details.
+#
+# This is only an example, and you should edit to suit your needs.
+# If you don't need config, you can remove the file entirely.
+options:
+  proxy-domain:
+    default: 
+    description: The Snap Store Proxy will require a domain or IP address to be set for the configuration and access by other devices.
+    type: string

@@ -1,0 +1,14 @@
+# Copyright 2020 Ubuntu
+# See LICENSE file for licensing details.
+name: snap-store-proxy
+summary: The Snap Store Proxy provides an on-premise edge proxy to the general Snap Store for your devices.
+description: |
+  The Snap Store Proxy provides an on-premise edge proxy to the general Snap Store for your devices. 
+  Devices are registered with the proxy, and all communication with the Store will flow through the proxy.
+series:
+  - bionic
+tags:
+  - snap
+requires:
+  db:
+    interface: pgsql

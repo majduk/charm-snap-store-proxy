@@ -1,4 +1,8 @@
 .jujuignore
 .vscode/
 build/
+env/
+venv/
+src/__pycache__/
+tests/__pycache__/
 snap-store-proxy.charm
